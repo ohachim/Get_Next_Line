@@ -6,7 +6,7 @@
 /*   By: ohachim <othmanehachim@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/13 15:54:28 by ohachim           #+#    #+#             */
-/*   Updated: 2018/11/03 10:40:24 by ohachim          ###   ########.fr       */
+/*   Updated: 2018/11/07 21:34:20 by ohachim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,22 +30,6 @@ static int	ft_countwords(char const *s, char c)
 		cn++;
 	}
 	return (words);
-}
-
-char		*ft_strcpyc(char *dst, const char *src, char c)
-{
-	int	cn;
-
-	if (ft_strlen(src) == 0)
-		return (NULL);
-	cn = 0;
-	while (src[cn] != c && src[cn] != '\0')
-	{
-		dst[cn] = src[cn];
-		cn++;
-	}
-	dst[cn] = '\0';
-	return (dst);
 }
 
 char		**ft_strsplit(char const *s, char c)

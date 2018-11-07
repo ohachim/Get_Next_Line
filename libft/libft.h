@@ -6,7 +6,7 @@
 /*   By: ohachim <othmanehachim@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/06 23:28:13 by ohachim           #+#    #+#             */
-/*   Updated: 2018/10/29 20:00:54 by ohachim          ###   ########.fr       */
+/*   Updated: 2018/11/07 21:37:55 by ohachim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,5 +91,6 @@ char				*ft_dreplace(const char *s, char tor, char r);
 char				*ft_strsubn(char *s, char c, char d);
 char				*ft_craadd(char *s, char c);
 char				*ft_strcpyc(char *dst, const char *src, char c);
+char				*ft_strndup(char *src, char c);
 
 #endif
