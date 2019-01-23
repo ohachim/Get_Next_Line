@@ -66,16 +66,16 @@ int     get_next_line(const int fd, char **line)
     return (ft_ret_line_read(ret, *fill[fd], ft_strlen(*line)));
 }
 
-int     main(void)
-{
-    char    *line;
-    int     fd;
+// int     main(void)
+// {
+//     char    *line;
+//     int     fd;
 
-    fd = open("text.txt", O_RDONLY);
-    while ((get_next_line(fd, &line)))
-    {
-        ft_putstr(line);
-        ft_putchar('\n');
-        ft_strdel(&line);  // Must free at every turn.
-    }
-}
+//     fd = open("text.txt", O_RDONLY);
+//     while ((get_next_line(fd, &line)))
+//     {
+//         ft_putstr(line);
+//         ft_putchar('\n');
+//         ft_strdel(&line);  // Must free at every turn.
+//     }
+// }
