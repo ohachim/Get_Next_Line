@@ -1,2 +1,0 @@
-# Mylibrary
-Custom functions.
